@@ -76,10 +76,10 @@
         }
 
         // Khởi tạo 3D cho trang chủ (thay URL ảnh bằng link thực tế, ví dụ: upload ảnh lên GitHub và dùng raw link)
-        init3D('3d-container', 'https://raw.githubusercontent.com/[tên-github-của-bạn]/du-lich-ao-thanh-hoa/main/texture.jpg'); // Thay bằng link ảnh
+        [init3D](https://github.com/vuphamquynhanh040208-sketch/texture.jpg.git)('3d-container', 'https://raw.githubusercontent.com/[tên-github-của-bạn]/du-lich-ao-thanh-hoa/main/texture.jpg'); // Thay bằng link ảnh
 
         // Khởi tạo 3D cho gem (có thể dùng ảnh khác)
-        init3D('gem-3d', 'https://raw.githubusercontent.com/[tên-github-của-bạn]/du-lich-ao-thanh-hoa/main/texture2.jpg');
+        [init3D](https://github.com/vuphamquynhanh040208-sketch/texture.jpg.git)('gem-3d', 'https://raw.githubusercontent.com/[tên-github-của-bạn]/du-lich-ao-thanh-hoa/main/texture2.jpg');
     </script>
 </body>
 </html># dulichthanhhoa
